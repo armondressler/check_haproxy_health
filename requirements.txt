@@ -1,0 +1,2 @@
+nagiosplugin>=1.2.4
+haproxyadmin>=0.2.1
