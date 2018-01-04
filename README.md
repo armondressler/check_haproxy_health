@@ -6,7 +6,8 @@ otherwise the installation of haproxyadmin / nagiosplugin with pip3 will fail.
 
 ### Basic Usage:
 
-show option and their explanation
+> show option and their explanation
+
 _./checkhaproxyhealth.py --help_
 
 #show available ha resources and their state
