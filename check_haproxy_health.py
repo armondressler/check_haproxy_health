@@ -391,7 +391,7 @@ def parse_arguments():
                         help='maximum value for performance data')
     parser.add_argument('--min', action='store', default=None,
                         help='minimum value for performance data')
-    parser.add_argument('--metric', action='store', required=True,
+    parser.add_argument('--metric', action='store', required=False,
                         help='Supported keywords: {}'.format(
                           ", ".join(CheckHaproxyHealthContext.fmt_helper.keys())))
     parser.add_argument('-v', '--verbose', action='count', default=0,
