@@ -1,4 +1,4 @@
-## check_haproxy_health: nagios plugin to check haproxy health
+## check_haproxy_health: nagios plugin to check haproxy stats
 
 The installation requires python3, the python3 header (python3-devel on CentOS7/Fedora) files and gcc, 
 otherwise the installation of haproxyadmin / nagiosplugin with pip3 will fail.
