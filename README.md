@@ -5,9 +5,9 @@ otherwise the installation of haproxyadmin / nagiosplugin with pip3 will fail.
 
 #### Ensure your haproxy.cfg contains a definition for a stats socket, e.g.
 
-    stats socket /var/run/haproxy.sock mode 600 level admin
+    stats socket /var/run/haproxy.sock gid 991 mode 660 level admin
 
-##### The user executing the script must be permitted to use the socket
+##### The user executing the script must be permitted to use the socket, in this case the icinga user has GID 991
 
 
 ### Basic Usage:
